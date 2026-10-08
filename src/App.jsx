@@ -1,3 +1,4 @@
+
 import React from "react";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
 
   return (
     <div>
-  <h2>Student List - Main Branch</h2>
+      <h2>Student List - Main and Feature 2</h2>
+
       <ul>
         {students.map((student, index) => (
           <li key={index}>{student}</li>
